@@ -251,7 +251,7 @@ li.quar {
 }
 
 /* footer styles */
-footer {
+#foot {
   display: flex;
   background-color: var(--tertiary);
   color: var(--background);
@@ -267,6 +267,13 @@ footer {
 #footerFlag {
   width: 20%;
   margin: 5px;
+}
+
+#foot2 {
+  display: flex;
+  background-color: var(--tertiary);
+  color: var(--background);
+  justify-content: center;
 }
 
 @media screen and (min-width: 1000px) {
