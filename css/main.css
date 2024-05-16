@@ -487,8 +487,14 @@ li.quar {
     margin: auto;
   }
 
-  .blog img {
+  .blog .left {
     float: left;
+    width: 35%;
+    margin-right: 20px;
+  }
+
+  .blog .right {
+    float: right;
     width: 35%;
     margin-right: 20px;
   }
