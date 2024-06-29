@@ -2,6 +2,7 @@
 :root {
   --background: #30393e;
   --text: #c6c4ba;
+  --secondary: #000;
   --tertiary: #9d9b9c;
 }
 
@@ -63,6 +64,8 @@ h2 {
 h2 {
   font-size: 1.8em;
 }
+
+/*  here________________________all above in first layout.svelte______________________ */
 
 /* Hero Section */
 .ship {
@@ -142,7 +145,7 @@ h2 {
   height: 200px;
 }
 
-/* Quote Styles */
+/* Quote Styles IN MAIN */
 blockquote {
   margin: 10px 10px 20px 30px;
 }
@@ -176,7 +179,52 @@ blockquote::after {
   font-size: 1.4em;
 }
 
-/* Adventure Log on Main Page */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: var(--secondary);
+  color: var(--text);
+  font-size: 28px;
+  border: 1px solid var(--text);
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-family: Alkatra, Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  left: 60px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding-left: 25px;
+  text-decoration: none;
+  display: block;
+  border: 1.5px solid var(--background);
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border: 1px solid var(--text);
+}
+
+.dropdown:hover .dropbtn {
+  background-color: var(--tertiary);
+}
+
+/* Adventure Log on Main Page ALL IN */
 
 .blog2,
 .blog3 {
@@ -250,7 +298,7 @@ li.quar {
   list-style-type: lower-alpha;
 }
 
-/* footer styles */
+/* footer styles (All in new) */
 #foot {
   display: flex;
   background-color: var(--tertiary);
