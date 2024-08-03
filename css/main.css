@@ -322,6 +322,7 @@ li.quar {
   background-color: var(--tertiary);
   color: var(--background);
   justify-content: center;
+  font-family: Alkatra, Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width: 1000px) {
