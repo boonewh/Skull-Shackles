@@ -65,8 +65,6 @@ h2 {
   font-size: 1.8em;
 }
 
-/*  here________________________all above in first layout.svelte______________________ */
-
 /* Hero Section */
 .ship {
   width: 100%;
@@ -106,7 +104,7 @@ h2 {
 
 .container4 {
   background: black;
-  background-image: url(/images/skull-background.png);
+  background-image: url(/images/bane_flag.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 40%;
@@ -430,10 +428,10 @@ li.quar {
   .container4 {
     display: flex;
     background: black;
-    background-image: url(/images/skull-background.png);
+    background-image: url(/images/bane_flag.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 40%;
+    background-size: 45%;
     justify-content: space-between;
     flex-direction: column;
   }
