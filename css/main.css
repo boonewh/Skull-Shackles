@@ -107,7 +107,7 @@ h2 {
   background-image: url(/images/bane_flag.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 40%;
+  background-size: 80%;
   justify-content: space-between;
 }
 
@@ -427,13 +427,17 @@ li.quar {
 
   .container4 {
     display: flex;
+    background-size: 45%;
+    flex-direction: column;
+  }
+
+  .container4 {
     background: black;
     background-image: url(/images/bane_flag.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 45%;
+    background-position: center 30%;
+    background-size: 40%;
     justify-content: space-between;
-    flex-direction: column;
   }
 
   .container4 img {
