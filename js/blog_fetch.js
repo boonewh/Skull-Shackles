@@ -1,9 +1,10 @@
-function switchPage(page) {
-  window.location.href = page;
-}
-
 fetch("adventure_log.html")
-  .then((response) => response.text())
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.text();
+  })
   .then((data) => {
     const parser = new DOMParser();
     const doc = parser.parseFromString(data, "text/html");

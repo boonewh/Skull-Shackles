@@ -542,12 +542,14 @@ li.quar {
     float: left;
     width: 35%;
     margin-right: 20px;
+    margin-bottom: 10px;
   }
 
   .blog .right {
     float: right;
     width: 35%;
-    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
   }
 
   /* Footer Styles */
