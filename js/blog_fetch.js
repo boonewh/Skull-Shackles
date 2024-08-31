@@ -1,3 +1,8 @@
+// This function is used to switch between pages on the adventure log!!! Do not delete!
+function switchPage(page) {
+  window.location.href = page;
+}
+
 fetch("adventure_log.html")
   .then((response) => {
     if (!response.ok) {
