@@ -177,6 +177,11 @@ blockquote::after {
   font-size: 1.4em;
 }
 
+.buttonsdiv {
+  display: flex;
+  justify-content: space-around;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -186,6 +191,14 @@ blockquote::after {
   background-color: var(--secondary);
   color: var(--text);
   font-size: 28px;
+  border: 1px solid var(--text);
+  cursor: pointer;
+}
+
+.jumpbtn button {
+  background-color: var(--secondary);
+  color: var(--text);
+  font-size: 20px;
   border: 1px solid var(--text);
   cursor: pointer;
 }
