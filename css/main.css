@@ -15,6 +15,7 @@ html {
   background-color: var(--background);
   color: var(--text);
   overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -73,10 +74,15 @@ h2 {
 }
 
 /* Hero Section */
+
 .ship {
-  display: block;
-  width: 80%;
-  margin: 0 auto;
+  position: relative;
+  width: 130%; /* Makes image wider than viewport */
+  max-width: none; /* Prevents constraining to parent width */
+  left: -30%; /* Shifts image left to focus on rocket */
+  overflow-x: hidden; /* Prevents horizontal scroll */
+  object-fit: cover; /* Maintains aspect ratio */
+  object-position: left; /* Focuses on left side where rocket is */
 }
 
 /* Body Styles */
